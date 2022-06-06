@@ -4,6 +4,35 @@ body {
 
 h1 {
     font-family: monospace;
+    text-align: center;
+}
+
+.elements-size {
+    font-size: 20px;
+    color: #9D69A3;
+}
+
+.sumario {
+    display: flex;
+    justify-content: center;
+}
+
+.sumario ol li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.foto {
+    position: absolute;
+    left: 30px;
+    top: 140px;
+    padding: 20px;
+    background-color: rgb(255, 222, 245);
+}
+
+.descritivo {
+    position: absolute;
+    margin: 40px 140px 0 380px;
 }
 
 #destaque {
@@ -11,7 +40,18 @@ h1 {
     color:#F5FBEF;
 }
 
-.elements-size {
-    font-size: 20px;
-    color: #9D69A3;
+.bloco-skills {
+    margin: 480px 100px 0 350px;
 }
+
+.bloco-skills li:nth-of-type(2n+1) {
+    background-color: #f5c;
+}
+
+.final {
+    margin-left: 380px;
+}
+
+
+
+
